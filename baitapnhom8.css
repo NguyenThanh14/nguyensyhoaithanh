@@ -1,0 +1,99 @@
+.container {
+	height: auto;
+	background: green
+}
+/*contens*/
+.container .page-contens .title
+{
+	height: 60px;
+	/*background: green;*/
+}
+.container .page-contens .contens
+{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 1%;
+}
+.container .page-contens .contens .item1
+{	float: left;
+	width: 32%;
+	height: 100%;
+	/*background: pink;*/
+	margin-left: 1%;
+	overflow: hidden;
+}
+.container .page-contens .contens .item2
+{	float: left;
+	width: 32%;
+	height: 100%;
+	/*background: pink;*/
+	margin-left: 1%;
+	overflow: hidden;
+}
+.container .page-contens .contens .item3
+{	float: left;
+	width: 32%;
+	height: 100%;
+	/*background: pink;*/
+	margin-left: 1%;
+	overflow: hidden;
+}
+.container .page-contens .contens img
+{
+	width: 100%;
+	height: 100%;
+	transform: all 0.5s ease-in-out;
+}
+.container .page-contens .contens img:hover
+{
+	transform: scale(1.2);
+}
+.container .btn
+{
+	border: 1px red solid;
+	margin-left: 1%;
+}
+/*footer*/
+.container .footer{
+	width: 100%;
+	height: auto;
+}
+.container .footer .title2{
+	height: 60px;
+}
+.container .footer .text{
+	width: 100%;
+	height: 100px;
+	/*background: pink;*/
+	position: relative;
+}
+.container .footer .text .nd1{
+	width: 50%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+	position: absolute;
+	text-indent: 25px;
+}
+.container .footer .text .nd2{
+	width: 50%;
+	height: 100%;
+	/*background: blue;*/
+	position: absolute;
+	left: 50%;
+	padding-bottom: 20px;
+}
+.container .footer .final p{
+	float: left;
+	font-size: 16px;
+}
+.container .footer i{
+	color: white;
+	margin-left:5px;
+}
+.container .footer .final img{
+	width: 50px;
+	height: 25px;
+	margin-left:5px;
+}
+
